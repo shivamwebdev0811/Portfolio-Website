@@ -946,13 +946,13 @@ footer {
     .contactus-heading
     {
         width:70%;
-        font-size:3rem;
+        font-size:2.5rem;
         text-align: center;
         padding:0rem 3rem;
     }
     .contactus-sub-heading
     {
-        font-size:3rem;
+        font-size:1.5rem;
         width:70%;
         padding:0 3rem;
         text-align: center;
@@ -969,10 +969,24 @@ footer {
         gap: 30px;
         width: 60%;
         /* margin:2rem 3rem; */
-        margin-left:0;
+        /* margin-bottom: 10px; */
+        margin-left:5%;
         /* margin-right:10%; */
         justify-content: flex-start;
         align-items: flex-start;
+    }
+    .contactus-form form input
+    {
+        font-size:1rem;
+    }
+    .contactus-form form textarea
+    {
+        font-size:1rem;
+    }
+    .btn-contact
+    {
+        transform:scale(0.7);
+        padding:1rem;
     }
     .footer-wrapper{
         flex-direction: column;
